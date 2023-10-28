@@ -1,0 +1,578 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    background-color: #808080b9;
+}
+
+a{
+    color:blue;
+}
+a:hover{
+    color:rgb(255, 0, 0);
+    text-decoration: underline;
+    font-size: 25px;
+}
+
+/* 00000000000000000000000000000000000000000000 header 8888888888888888888888888 */
+header{
+    width: 100%;
+    background-color:rgba(0, 0, 0, 0.753);
+    height: 10%;
+    position: fixed;
+    top: 0%;
+}
+header nav{
+    display: flex;
+}
+
+
+header p{
+    color: rgb(7, 241, 7);
+    display: inline;
+    position: relative;
+    left: 100px;
+    font-size: 20px;
+    font-weight: bold;
+}
+nav ul{
+    position: absolute;
+    left: 700px;
+}
+header nav ul li{
+    list-style: none;
+    display: inline;
+    padding-right: 8px;
+ 
+}
+header ul li a{
+    text-decoration: none;
+    color:red;
+    font-size: 20px;
+}
+header ul li a:hover{
+    color: rgb(13, 245, 13);
+    font-size: 20px;
+    text-decoration: underline;
+    padding-right:  15px;
+  
+}
+span{
+    color: red;
+}
+#pal{
+    color:red;
+}
+#est{
+    color:white;
+}
+#ine{
+    color: green;
+}
+
+#PALESTINE{
+    margin-top:100px;
+}
+#PALESTINE h1{
+    text-align: center;
+    text-decoration: underline;
+}
+
+
+#PALESTINE img{
+    margin-left: 320px;
+    border-top: 30px black solid;
+    border-left: red 30px solid;
+    border-bottom:green 30px solid ;
+    border-right: white solid 30px ;
+    border-radius: 5px;
+
+}    
+
+    /*8888888888888888888888888888888888888888 PRINCIPALE  888888888888888888888 */
+
+#principale{
+    display: flex;
+    margin-top: 60px;
+    width: 100%;
+}
+
+#virologie{
+    width: 45%;
+    margin-left: 10px;
+}
+#virologie div{
+    width: 95%;
+}
+#virologie div p{
+    width: 95%;
+
+}
+#images{
+    display:flex;
+}
+#images div img{
+    display: flex;
+    margin: 5px;
+    border: grey 5px solid;
+    border-radius: 20px;
+}
+
+
+
+#self{
+    margin-top: 200px;
+    margin-left: 50xp;
+    display: grid;
+}
+#self div{
+    margin-top: 200px;
+}
+#self div img{
+    margin-left: 10px;
+}
+
+#self h1{
+    margin: auto;
+}
+
+    
+#self h1 a{
+    padding:200px 50px;
+    margin-top: 50px;
+    background-image: url('img/20231016_234255.jpg') ;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: lime;
+   
+}
+#self h1 a:hover{
+    color: red;
+}
+
+.img{
+    border: solid grey 5px;
+    border-radius: 20px;
+    margin: 15px;
+}
+/*888888888888888888888888888888888888  embriologie     88888888888888888888888888888888888*/
+#Art{
+    width: 90%;
+    display:flex;
+}
+#Art img {
+    width: 25%;
+}
+#paragraphes{
+    width: 80%;
+    display: grid;
+    margin-left: 20px;
+}
+#pararaphes div {
+    width: 100%;
+}
+#paragraphes div p{
+    padding: 10px;
+    width: 100%;
+}
+
+/* 8888888888888888888888 animale vegetale cellulaire 888888888888888888*/
+
+#bio_ani-vege-cell{
+    display: flex;
+    width: 100%;
+}
+
+#bio_ani-vege-cell div{
+    width: 30%;
+    margin-left: 10px;
+
+}
+
+.commune{
+    display:grid;
+    border: solid grey 5px;
+    border-radius: 20px;
+}
+.commune img{
+    border: solid grey 5px;
+    border-radius: 20px;
+    margin: 8px;
+    width: 60%;
+    margin: auto;
+}
+.commune p{
+    width: 70%;
+    margin-left: 10px;
+}
+
+#cellulaire{
+    background-color: orange;
+    border-color: orangered;
+
+}
+#cellulaire img{
+    border-color: rgba(255, 68, 0, 0.384);
+    margin-top: 10px;
+}
+#cellulaire p{
+    margin: 10px;
+    width: 90%;
+    line-height:22px;
+}
+
+#animale{
+    background-color:rgba(13, 149, 228, 0.267) ;
+    border-color: rgba(0, 0, 255, 0.575);
+}
+#animale img{
+    margin-top: 10px;
+    border-color: rgba(0, 0, 255, 0.24);
+}
+#animale p{
+    line-height: 38px;
+    width: 90%;
+    margin: 10px;
+}
+#vegetale {
+    background-color: rgba(15, 77, 15, 0.753);
+    border-color: rgb(18, 223, 18);
+}
+#vegetale img{
+    border-color:  rgb(18, 223, 18);
+    margin-top: 10px;
+}
+#vegetale p{
+    margin: 10px;
+    width: 90%;
+    line-height: 30px;
+}
+
+/*888888888888888888888 Genetice microbiologie 888888888888888888*/
+
+#geni_micro{
+    display: flex;
+}
+#geni_micro div{
+    width: 45%;
+    margin: 20px 20px ;
+    display: grid;
+}
+
+
+#geni_micro div img{
+    width: 50%;
+}
+
+#geni_micro div p{
+    width:90%;
+    margin: 20px;
+
+}
+#genetique{
+    border-color: aqua;
+    background-color: aquamarine;
+}
+#genetique img{
+    border-color: aquamarine;
+    margin-top: 8px;
+}
+#genetique p{
+    line-height: 30px;
+}
+#micro{
+    border-color: rgb(119, 175, 22);
+    background-color: darkolivegreen;
+}
+#micro img{
+    border-color:  rgb(119, 175, 22);
+}
+
+/*88888888888888888 TUTORIELLES 8888888888888888888*/
+
+#tutoriels{
+    display: flex;
+}
+#tutoriels div {
+    width: 25%;
+    margin:20px;
+    border: solid 5px rgba(13, 149, 228, 0.267);
+    border-radius: 20px;
+    padding: 20px;
+    background-color: rgba(255, 68, 0, 0.384);
+}
+
+
+/*888888888888 About 8888888888888888888888*/
+#about{
+    display: flex;
+    width: 50%;
+    margin-left: 200px;
+    align-items: center;
+}
+#about div img{
+    border: solid black 5px;
+    border-radius: 100%;
+    margin-right: 20px;
+    width: 170px;
+    height: 170px;
+}
+about p{
+    width: 100%;
+}
+
+
+
+/* 88888888888888888888888  CONTACTE IMAGES 8888888888888888888 */
+
+footer{
+    width: 100%;
+    background-color: black;
+    display:flex;
+    margin: 5% 0% 0% 0%;
+}
+footer div{
+    margin-left: 6%;
+}
+footer div img{
+    width: 10%;
+    margin: 3%;
+    border: 3px black solid;
+    border-radius: 100%;
+    padding: opx;
+
+}
+footer div img:hover{
+    margin-bottom: 6%;
+}
+footer h2{
+    color: wheat;
+}
+
+
+
+@media screen and (max-width:450px ){
+
+    header nav{
+        display:grid;
+    }
+
+
+header p{
+    color: rgb(7, 241, 7);
+    position: absolute;
+    left: 140px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+nav ul{
+    position:absolute;
+    left:2px;
+    top:10px;
+}
+
+header nav ul li{
+    list-style: none;
+    display: inline;
+    padding-right:4px;
+ 
+}
+header ul li a{
+    text-decoration: none;
+    color:red;
+    font-size:10px;
+}
+
+header ul li a:hover{
+    color: rgb(13, 245, 13);
+    font-size:13px;
+    text-decoration: underline;
+    padding-right: 5px;
+}
+
+ /*8888888888888888888888888888888888888888 PRINCIPALE  888888888888888888888 */
+
+#principale{
+    display: grid;
+    width: 390px;
+    margin:50px 5px 20px 5px ;
+}
+#virologie{
+    width: 390;
+    margin: 5px;
+}
+#virologie div{
+    width: 390px;
+
+}
+
+#images{
+    display:grid;
+}
+#images div img{
+    display: flex;
+    margin: 5px;
+    border: grey 5px solid;
+    border-radius: 20px;
+    width: 350px;
+}
+
+#self h1{
+    margin-left: 5px;
+}
+
+#self h1 a{
+    padding:200px 70px;
+    margin-top: 50px;
+    background-image: url('img/20231016_234255.jpg') ;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: lime;
+    font-size: 15px;
+}
+   
+#self div {
+    width: 400px;
+    display: grid;
+}
+#self div img{
+    width: 350px;
+    margin-left: 20px;
+}
+#self div p{
+    width: 350px;
+    padding:15px;
+}
+
+/*888888888888888888888888888888888888  embriologie     88888888888888888888888888888888888*/
+
+#Art{
+    width: 400px;
+    display:grid;
+}
+
+#Art img {
+    width: 350px;
+    margin: auto;
+}
+#paragraphes{
+    width:390px;
+    display: grid;
+    margin: 10px;
+}
+#pararaphes div {
+    width:100%;
+}
+#paragraphes div p{
+    padding: 10px;
+    width: 90%;
+}
+
+/* 8888888888888888888888 animale vegetale cellulaire 888888888888888888*/
+
+#bio_ani-vege-cell{
+    display: grid;
+    width: 450px;
+}
+
+#bio_ani-vege-cell div{
+    width: 400px;
+    margin: 10px;
+
+}
+
+
+
+.commune img{
+    width:200px;
+}
+.commune p{
+    width:420px;
+    margin-left: 10px;
+}
+
+
+/*888888888888888888888 Genetice microbiologie 888888888888888888*/
+
+#geni_micro{
+    display: grid;
+    width: 450px;
+}
+#geni_micro div{
+    width:400px;
+}
+
+
+#geni_micro div img{
+    margin-top: 10px;
+    width: 200px;
+}
+
+#geni_micro div p{
+    width:380px;
+    margin: 10px;
+}
+
+
+/*88888888888888888 TUTORIELLES 8888888888888888888*/
+
+#tutoriels{
+    display: grid;
+}
+#tutoriels div {
+    width:360px;
+    padding: 20px;
+}
+
+/*888888888888 About 8888888888888888888888*/
+#about{
+    display: grid;
+    width:300px;
+    margin: 20px 70px;
+}
+
+
+/* 88888888888888888888888  CONTACTE IMAGES 8888888888888888888 */
+
+footer{
+    width:450px;
+    margin: 5% 0% 0% 0%;
+}
+footer div{
+    margin-left: 100px;
+}
+footer div img{
+    width: 40px;
+    margin:10px;
+ 
+
+}
+footer div img:hover{
+    margin-bottom:30px;
+}
+
+#PALESTINE{
+    margin-top:100px;
+    width: 450px;
+    
+}
+#PALESTINE h1{
+
+}
+
+
+#PALESTINE img{
+  width: 350px;
+
+margin-left: 15px;
+}  
+
+}
+
+
+
+
+
+
+
+
